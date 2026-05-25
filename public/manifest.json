@@ -1,13 +1,28 @@
 {
-  "name": "Mirror",
+  "name": "Mirror — Be Yourself. Look Fucking Cool.",
   "short_name": "Mirror",
-  "description": "Confidence-first wardrobe app.",
+  "description": "AI-powered wardrobe app. Upload your closet, generate outfits, get style critiques, and build confidence in every look.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0a0a",
   "theme_color": "#0a0a0a",
   "orientation": "portrait",
+  "categories": ["lifestyle", "fashion", "shopping"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "id": "/",
+  "scope": "/",
   "icons": [
+    {
+      "src": "/icons/favicon-16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
     {
       "src": "/icons/icon-192.png",
       "sizes": "192x192",
@@ -24,5 +39,7 @@
       "type": "image/png",
       "purpose": "maskable"
     }
-  ]
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
 }
