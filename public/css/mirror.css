@@ -119,6 +119,7 @@ body.has-nav { padding-bottom: var(--nav-height); }
 
 .tagline { margin: 0; font-size: clamp(1.15rem, 4vw, 1.6rem); font-style: italic; line-height: 1.3; }
 .subtitle { margin: 0; opacity: 0.85; }
+.version-badge { margin: 0; font-size: 0.75rem; opacity: 0.35; letter-spacing: 0.1em; font-family: monospace; }
 
 /* ── Buttons ── */
 button {

@@ -1,9 +1,19 @@
 /* ================================================================
-   Mirror — app.js
-   Core application logic: theme system, profile, wardrobe (IndexedDB),
-   outfit generation with weather/dress code, outfit builder + AI
-   critique, availability tracking, navigation, routing.
+   Mirror v1.0.0 — app.js
+   AI-powered wardrobe app: theme system, profile, wardrobe (IndexedDB),
+   outfit generation, builder, critique, challenges, packing, and more.
    ================================================================ */
+
+const APP_VERSION = '1.0.0';
+
+// ── Global Error Handler ──────────────────────────────────────────
+window.addEventListener('error', function(e) {
+    console.error('Mirror error:', e.message, e.filename, e.lineno);
+});
+
+window.addEventListener('unhandledrejection', function(e) {
+    console.error('Mirror unhandled promise:', e.reason);
+});
 
 // ── Constants ──────────────────────────────────────────────────────
 const STORAGE_KEY = 'mirror-profile';
