@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mirror-v6';
+const CACHE_NAME = 'mirror-v1.0.0';
 const CORE_ASSETS = [
   '/',
   '/index.html',
@@ -16,7 +16,11 @@ const CORE_ASSETS = [
   '/tryon.html',
   '/css/mirror.css',
   '/js/app.js',
-  '/manifest.json'
+  '/manifest.json',
+  '/icons/icon-192.png',
+  '/icons/icon-512.png',
+  '/icons/favicon-32.png',
+  '/icons/apple-touch-icon.png'
 ];
 
 self.addEventListener('install', (event) => {
